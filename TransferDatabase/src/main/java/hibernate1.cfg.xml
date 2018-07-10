@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 2.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-2.0.dtd">
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration. -->
+<hibernate-configuration>
+<session-factory>
+<!-- properties -->
+<property name="connection.username">system</property>
+<property name="connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>
+<property name="dialect">org.hibernate.dialect.Oracle10gDialect</property>
+<property name="connection.password">sanket</property>
+<property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+
+<property name="show_sql">true</property>
+<property name="hbm2ddl.auto">create</property> 
+
+<mapping resource="Oracle.mapping.xml"/>
+</session-factory>
+</hibernate-configuration> 

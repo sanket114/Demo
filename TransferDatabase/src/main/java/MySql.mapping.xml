@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="Com.Simple.hibernateExchange.TransferDatabase.Employe" table="Employe12">
+		<id name="id" type="int">
+			<column name="Employ_id" length="20" />
+		</id>
+
+		<property name="name" type="string">
+			<column name="Employ_name" length="20" />
+		</property>
+		<property name="salary" type="double">
+			<column name="Employ_salary" length="20" />
+		</property>
+		<property name="age" type="int">
+			<column name="Employ_age" length="20" />
+		</property>
+
+	</class>
+</hibernate-mapping>
